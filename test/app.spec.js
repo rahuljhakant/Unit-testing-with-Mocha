@@ -1,5 +1,6 @@
-const { add, sub } = require('../src/app');
-const { expect } = require('chai');
+import { add, sub } from '../src/app.js';
+import { expect } from 'chai';
+
 
 // BDD style
 describe('Suite 1', () => {
